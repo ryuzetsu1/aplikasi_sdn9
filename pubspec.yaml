@@ -1,0 +1,37 @@
+name: aplikasi_sdn9
+description: "Aplikasi SDN 9"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  intl: ^0.17.0
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  table_calendar: ^3.0.0
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/img1.jpg
+    - assets/images/img2.jpg
+    - assets/images/write.png
+    - assets/images/open-book.png
+    - assets/images/calendar.png
+    - assets/images/schedule.png
+    - assets/images/exam-results.png
+    - assets/images/megaphone.png
+    - assets/images/man.png
+    - assets/images/logo_sdn9.png
